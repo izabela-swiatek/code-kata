@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeKata
+﻿namespace CodeKata
 {
     public static class BoolToWord
     {
-        public static string ConvertBoolToWord(bool word)
-        {
-            throw new NotImplementedException();
-        }
+        public static string ConvertBoolToWord(bool word) => word ? "Yes" : "No";
     }
 }
