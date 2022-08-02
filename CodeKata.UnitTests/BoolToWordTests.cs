@@ -5,7 +5,7 @@
     {
 
         [Test]
-        public void ConvertBoolToWord_True_ReturnsYes1()
+        public void ConvertBoolToWord_True_ReturnsYes()
         {
             Assert.AreEqual("Yes", BoolToWord.ConvertBoolToWord(true));
             Console.WriteLine("Expected Yes");
@@ -18,11 +18,6 @@
             Console.WriteLine("Expected No");
         }
 
-        [Test]
-        public void ConvertBoolToWord_True_ReturnsYes2()
-        {
-            Assert.AreEqual("Yes", BoolToWord.ConvertBoolToWord(true));
-            Console.WriteLine("Expected Yes");
-        }
+        
     }
 }
