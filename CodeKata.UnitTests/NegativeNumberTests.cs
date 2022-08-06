@@ -8,7 +8,6 @@ namespace CodeKata.UnitTests
 {
     public class NegativeNumberTests
     {
-
         [Test]
         public void MakeNegative_Positive_ReturnsNegative()
         {
