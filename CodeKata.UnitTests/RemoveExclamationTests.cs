@@ -13,7 +13,7 @@ namespace CodeKata.UnitTests
         [TestCase("!!", "")]
         [TestCase("Hi!", "Hi")]
         [TestCase("!?!", "?")]
-        public static void RenoveExclamationMarks_TakeString_ReturnStringWithoutExlamation(string previous, string next)
+        public static void RemoveExclamationMarks_TakeString_ReturnStringWithoutExlamation(string previous, string next)
         {
             Assert.That(RemoveExclamation.RemoveExclamationMarks(previous), Is.EqualTo(next));
            
