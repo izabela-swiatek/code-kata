@@ -11,7 +11,7 @@ namespace CodeKata.UnitTests
         [TestCase("3 years old", ExpectedResult = 3)]
         [TestCase("4 years old", ExpectedResult = 4)]
         [TestCase("9 years old", ExpectedResult = 9)]
-        public static int GetAge_GivenString_ReturnInt(string stringAge) 
+        public static int GetAge_GivenText_ReturnNumber(string stringAge) 
         {
             return IntFromString.GetAge(stringAge);
         }

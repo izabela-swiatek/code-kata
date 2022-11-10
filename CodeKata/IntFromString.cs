@@ -12,5 +12,6 @@ namespace CodeKata
         {
             return int.Parse(inputString.Substring(0, 1));
         }
+
     }
 }
