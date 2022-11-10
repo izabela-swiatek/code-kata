@@ -16,9 +16,9 @@ namespace CodeKata.UnitTests
         [TestCase(new int[] { 4 }, ExpectedResult = null)]
         [TestCase(new int[] { }, ExpectedResult = null)]
 
-        public static object FirstNonConsecutive_GivenArray_ReturnNCNumber(int[] arrTested) 
+        public static object FirstNonConsecutive_GivenArray_ReturnNonConsecutiveNumber(int[] arrayTested) 
         {
-            return FindFirstNonConsecutive.FirstNonConsecutive(arrTested);
+            return FindFirstNonConsecutive.FirstNonConsecutive(arrayTested);
         }
     }
 }
