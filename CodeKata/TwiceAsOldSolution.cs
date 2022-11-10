@@ -10,7 +10,7 @@ namespace CodeKata
     {
         public static int TwiceAsOld(int dadYears, int sonYears)
         {
-            return dadYears - 2 * sonYears > 0 ? dadYears - 2 * sonYears : (dadYears - 2 * sonYears) * (-1);
+            return Math.Abs(dadYears - 2 * sonYears);
         }
     }
 }
